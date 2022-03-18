@@ -59,11 +59,11 @@ Leveraging the [tabgan](https://pypi.org/project/tabgan/) python library, a gene
 
 Using the same five classification algorithms, next treatment type (outpatient/inpatient) was predicted from demographics and biomarker variables using a combined dataset including the original data, as well as the generated synthetic data. Accuracy scores were then calculated for each model:
 
-**Logistic Regression Accuracy:** 0.668
-**Decision Tree Accuracy:** 0.661
-**Random Forest Accuracy:** 0.772
-**Gradient Boosting Accuracy:** 0.740
-**Neural Network (MLP Classifier) Accuracy:** 0.720
+1. **Logistic Regression Accuracy:** 0.668
+2. **Decision Tree Accuracy:** 0.661
+3. **Random Forest Accuracy:** 0.772
+4. **Gradient Boosting Accuracy:** 0.740
+5. **Neural Network (MLP Classifier) Accuracy:** 0.720
 
 The following figure compares the accuracy scores generated from the classification models applied to the original real data alone, to the combined data. From this comparison, we see that for both sets of data, the random forrest was the most accurate. More importantly, we can see that across the board, the generated data does not seem to have a meaningful negative impact on the accuracy of the models. In several cases, it seems to even improve the accuracy of the models.
 
